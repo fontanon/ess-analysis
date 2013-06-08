@@ -6,7 +6,7 @@ library (lattice)
 library (randomForest)
 library(reshape)
 
-setwd("/home/fontanon/Dropbox/Devel/dataanalysis-ess/essanalysis")
+#setwd("/home/fontanon/Dropbox/Devel/dataanalysis-ess/essanalysis")
 ess <- read.csv("data/ess.csv")
 
 # Función para mostrar de forma ordenada Mean Decrease Accuracy y Mean Decrease Gini 
